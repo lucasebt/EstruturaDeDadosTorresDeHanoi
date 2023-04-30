@@ -4,7 +4,7 @@ package com.mycompany.eddtorresdehanoi;
 import java.util.Scanner;
 
 public class EDDTorresDeHanoi {
-    private static int movimentos = 0;
+    private static long movimentos = 0;
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.print("Digite o número de discos: ");
